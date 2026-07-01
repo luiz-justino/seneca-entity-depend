@@ -15,13 +15,13 @@
 
 ## Install
 
-```
+```sh
 npm install @seneca/entity-depend
 ```
 
 ## Quick Example
 
-```
+```js
 require('seneca')()
   .use('@seneca/entity-depend')
 ```
@@ -156,7 +156,7 @@ The [Senecajs org](https://github.com/senecajs/) encourages open participation. 
 
 ### Running tests
 
-```
+```sh
 npm run test
 ```
 
