@@ -6,7 +6,6 @@
 [![npm version](https://img.shields.io/npm/v/@seneca/entity-depend.svg)](https://npmjs.com/package/@seneca/entity-depend)
 [![build](https://github.com/senecajs/seneca-entity-depend/actions/workflows/build.yml/badge.svg)](https://github.com/senecajs/seneca-entity-depend/actions/workflows/build.yml)
 [![Known Vulnerabilities](https://snyk.io/test/github/senecajs/seneca-entity-depend/badge.svg)](https://snyk.io/test/github/senecajs/seneca-entity-depend)
-[![npm version](https://badge.fury.io/js/%40seneca%2Fentity-depend.svg)](https://badge.fury.io/js/%40seneca%2Fentity-depend)
 [![Coverage Status](https://coveralls.io/repos/github/senecajs/seneca-entity-depend/badge.svg?branch=main)](https://coveralls.io/github/senecajs/seneca-entity-depend?branch=main)
 [![Maintainability](https://api.codeclimate.com/v1/badges/0b1990c4264d66b01c50/maintainability)](https://codeclimate.com/github/senecajs/seneca-entity-depend/maintainability)
 [![DeepScan grade](https://deepscan.io/api/teams/5016/projects/14231/branches/259194/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=5016&pid=14231&bid=259194)
@@ -53,7 +52,6 @@ If you're using this module and need help, you can:
 
 These can be run interactively with [seneca-repl](senecajs/seneca-repl. 
 To use in code, call with `let out = await seneca.post(msg)`.
-
 
 #### Create some entities
 ```css
@@ -102,7 +100,6 @@ Keep child's conflicting changes:
 
 Parent to child relationship is one-to-many. Thus `pull:child` needs both 
 `child_id` and `parent_id`.
-
 
 #### Generate a pull request
 
